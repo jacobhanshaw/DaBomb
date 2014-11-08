@@ -68,6 +68,9 @@
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Shaders\LeapDistorted.shader" />
      <None Include="Assets\LeapMotion\Shaders\LeapUndistorted.shader" />
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Assets/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
  <Reference Include="OpenNI.Net">
  <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Assets/ZigFu/Scripts/_Internal/OpenNI.Net.dll</HintPath>
  </Reference>
@@ -76,9 +79,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity4.5.5/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="LeapCSharp.NET3.5">
- <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Assets/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
