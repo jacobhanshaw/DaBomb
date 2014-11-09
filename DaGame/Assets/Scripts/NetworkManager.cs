@@ -9,6 +9,7 @@ public class NetworkManager : MonoBehaviour
     private bool isRefreshingHostList = false;
     private HostData[] hostList;
 
+	public GameObject hostPrefab;
     public GameObject playerPrefab;
 
     void OnGUI()
@@ -40,7 +41,7 @@ public class NetworkManager : MonoBehaviour
 
     void OnServerInitialized()
     {
-       
+		SpawnHost();
     }
 
     void Update()
@@ -77,4 +78,9 @@ public class NetworkManager : MonoBehaviour
     {
         Network.Instantiate(playerPrefab, Vector3.up * 5, Quaternion.identity, 0);
     }
+
+	private void SpawnHost()
+	{
+		Network.Instantiate(hostPrefab, Vector3.up * 11, Quaternion.identity, 0);
+	}
 }
