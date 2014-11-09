@@ -103,7 +103,7 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Scripts\PersonalConstants.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\UpdateFromServer.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />

@@ -40,9 +40,8 @@ public class NetworkManager : MonoBehaviour
 
     void OnServerInitialized()
     {
-        SpawnPlayer();
+       
     }
-
 
     void Update()
     {
