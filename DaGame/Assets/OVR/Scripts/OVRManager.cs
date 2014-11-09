@@ -372,7 +372,7 @@ public class OVRManager : MonoBehaviour
 	}
 
 	private void Start()
-	{		
+	{
 		Camera cam = GetComponent<Camera>();
 		if (cam == null)
 		{
@@ -439,7 +439,6 @@ public class OVRManager : MonoBehaviour
 	private void LateUpdate()
 #endif
 	{
-
 #if (!UNITY_ANDROID || UNITY_EDITOR)
 		display.BeginFrame();
 #endif

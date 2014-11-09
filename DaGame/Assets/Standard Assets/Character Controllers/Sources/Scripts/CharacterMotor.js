@@ -178,6 +178,7 @@ private var controller : CharacterController;
 function Awake () {
 	controller = GetComponent (CharacterController);
 	tr = transform;
+	SetControllable(networkView.isMine);
 }
 
 private function UpdateFunction () {
@@ -309,9 +310,6 @@ private function UpdateFunction () {
 }
 
 function FixedUpdate () {
-	if(!networkView.isMine)
-		return;
-
 	if (movingPlatform.enabled) {
 		if (movingPlatform.activePlatform != null) {
 			if (!movingPlatform.newPlatform) {
@@ -335,8 +333,6 @@ function FixedUpdate () {
 }
 
 function Update () {
-	if(!networkView.isMine)
-		return;
 	if (!useFixedUpdate)
 		UpdateFunction();
 }

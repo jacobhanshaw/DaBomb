@@ -61,9 +61,6 @@ public class OVRGameView
 
 	static void OnUpdate()
 	{
-		if(Network.isServer)
-			return;
-
 		if (OVRManager.instance == null)
 			return;
 
