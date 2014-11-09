@@ -1,19 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeapMotion\Scripts\HandController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js">
     <Files>
-      <File FileName="Assets\Scripts\NetworkManager.cs" Line="65" Column="30" />
-      <File FileName="Assets\Scripts\NoCam.cs" Line="1" Column="1" />
-      <File FileName="Assets\OVR\Scripts\OVRDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets\OVR\Scripts\OVRManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\OVR\Scripts\OVRCameraRig.cs" Line="1" Column="1" />
-      <File FileName="Assets\OVR\Scripts\Util\OVRPlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\OVR\Scripts\Util\OVRMainMenu.cs" Line="913" Column="4" />
-      <File FileName="Assets\OVR\Editor\OVRGameView.cs" Line="1" Column="1" />
-      <File FileName="Assets\OVR\Scripts\Util\OVRGamepadController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Materials\Scripts\Hands\HandModel.cs" Line="12" Column="1" />
-      <File FileName="Assets\Scripts\PersonalConstants.cs" Line="7" Column="1" />
-      <File FileName="Assets\LeapMotion\Scripts\HandController.cs" Line="1" Column="1" />
+      <File FileName="Assets\AddRift.cs" Line="9" Column="7" />
+      <File FileName="Assets\Scripts\NetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UpdateFromServer.cs" Line="45" Column="9" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="339" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
