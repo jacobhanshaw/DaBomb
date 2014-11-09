@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity4.5.5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity4.5.5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -67,25 +67,25 @@
      <Compile Include="Assets\LeapMotion\InteractionUtils (alpha)\Scripts\UnityIntegration\MathWithUnity.cs" />
      <Compile Include="Assets\LeapMotion\InteractionUtils (alpha)\Scripts\UnityIntegration\TransformSyncUtil.cs" />
      <Compile Include="Assets\LeapMotion\InteractionUtils (alpha)\Scripts\UnityIntegration\UnityUtil.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugFinger.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandModel.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyFinger.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyHand.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedFinger.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedHand.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Tools\ToolModel.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapRecorder.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
+     <Compile Include="Assets\Materials\Scripts\HandController.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\DebugFinger.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\DebugHand.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\FingerModel.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\HandModel.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\PolyFinger.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\PolyHand.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\RiggedFinger.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\RiggedHand.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\RigidFinger.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\RigidHand.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\SkeletalFinger.cs" />
+     <Compile Include="Assets\Materials\Scripts\Hands\SkeletalHand.cs" />
+     <Compile Include="Assets\Materials\Scripts\LeapImageRetriever.cs" />
+     <Compile Include="Assets\Materials\Scripts\Tools\ToolModel.cs" />
+     <Compile Include="Assets\Materials\Scripts\Utils\ConfidenceTransparency.cs" />
+     <Compile Include="Assets\Materials\Scripts\Utils\LeapRecorder.cs" />
+     <Compile Include="Assets\Materials\Scripts\Utils\LeapUnityExtensions.cs" />
+     <Compile Include="Assets\Materials\Scripts\Utils\MagneticPinch.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
@@ -101,6 +101,7 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+     <Compile Include="Assets\Scripts\Host.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Scripts\NoCam.cs" />
      <Compile Include="Assets\Scripts\PersonalConstants.cs" />
@@ -149,16 +150,16 @@
      <None Include="Assets\LeapMotion\Shaders\LeapDistorted.shader" />
      <None Include="Assets\LeapMotion\Shaders\LeapUndistorted.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Xavier/Documents/GitHub/DaBomb/DaGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Assets/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>C:/Users/Xavier/Documents/GitHub/DaBomb/DaGame/Assets/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
  <Reference Include="OpenNI.Net">
- <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Assets/ZigFu/Scripts/_Internal/OpenNI.Net.dll</HintPath>
+ <HintPath>C:/Users/Xavier/Documents/GitHub/DaBomb/DaGame/Assets/ZigFu/Scripts/_Internal/OpenNI.Net.dll</HintPath>
  </Reference>
  <Reference Include="ZDK">
- <HintPath>C:/Users/guita_000/Documents/GitHub/DaBomb/DaGame/Assets/ZigFu/Scripts/_Internal/ZDK.dll</HintPath>
+ <HintPath>C:/Users/Xavier/Documents/GitHub/DaBomb/DaGame/Assets/ZigFu/Scripts/_Internal/ZDK.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
