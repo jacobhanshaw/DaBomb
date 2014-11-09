@@ -49,8 +49,7 @@ public class UpdateFromServer : MonoBehaviour
     private void SyncedMovement()
     {
         syncTime += Time.deltaTime;
-
-        rigidbody.position = Vector3.Lerp(syncStartPosition, syncEndPosition, syncTime / syncDelay);
+        gameObject.transform.position = Vector3.Lerp(syncStartPosition, syncEndPosition, syncTime / syncDelay);
     }
 
 }
