@@ -94,6 +94,9 @@ public class OVRDisplay
 	/// </summary>
 	public OVRDisplay()
 	{
+		if(Network.isServer)
+			return;
+
 		RecenterPose();
 
 #if !UNITY_ANDROID || UNITY_EDITOR

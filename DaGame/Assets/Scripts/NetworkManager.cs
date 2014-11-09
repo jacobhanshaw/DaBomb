@@ -40,7 +40,7 @@ public class NetworkManager : MonoBehaviour
 
     void OnServerInitialized()
     {
-       
+		Debug.Log("Server init");
     }
 
     void Update()
@@ -69,9 +69,9 @@ public class NetworkManager : MonoBehaviour
 
     void OnConnectedToServer()
     {
+		Debug.Log("Server connect");
         SpawnPlayer();
     }
-
 
     private void SpawnPlayer()
     {

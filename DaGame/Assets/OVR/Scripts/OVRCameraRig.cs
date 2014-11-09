@@ -59,6 +59,8 @@ public class OVRCameraRig : MonoBehaviour
 #region Unity Messages
 	private void Awake()
 	{
+		if(Network.isServer)
+			return;
 		EnsureGameObjectIntegrity();
 		
 		if (!Application.isPlaying)
@@ -69,6 +71,8 @@ public class OVRCameraRig : MonoBehaviour
 
 	private void Start()
 	{
+		if(Network.isServer)
+			return;
 		EnsureGameObjectIntegrity();
 
 		if (!Application.isPlaying)
@@ -80,6 +84,8 @@ public class OVRCameraRig : MonoBehaviour
 
 	private void LateUpdate()
 	{
+		if(Network.isServer)
+			return;
 		EnsureGameObjectIntegrity();
 		
 		if (!Application.isPlaying)

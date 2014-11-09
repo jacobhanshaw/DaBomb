@@ -867,6 +867,9 @@ public class OVRMainMenu : MonoBehaviour
 	/// </summary>
 	void CheckIfRiftPresent()
 	{
+		if(Network.isServer)
+			return;
+
 		HMDPresent = OVRManager.display.isPresent;
 		
 		if (!HMDPresent)

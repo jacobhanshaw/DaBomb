@@ -256,6 +256,9 @@ public class OVRGamepadController : MonoBehaviour
 
     void Update()
     {
+		if(Network.isServer)
+			return;
+
 		GPC_Available = GPC_Update();
     }
 
