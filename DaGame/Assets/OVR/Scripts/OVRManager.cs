@@ -312,8 +312,6 @@ public class OVRManager : MonoBehaviour
 		}
 
 		instance = this;
-		if(Network.isServer)
-			return;
 
 #if !UNITY_ANDROID || UNITY_EDITOR
 		var netVersion = new System.Version(Ovr.Hmd.OVR_VERSION_STRING);
@@ -375,9 +373,6 @@ public class OVRManager : MonoBehaviour
 
 	private void Start()
 	{		
-		if(Network.isServer)
-		return;
-
 		Camera cam = GetComponent<Camera>();
 		if (cam == null)
 		{
@@ -400,9 +395,6 @@ public class OVRManager : MonoBehaviour
 
 	private void Update()
 	{
-		if(Network.isServer)
-			return;
-
 		if (usePositionTracking != usingPositionTracking)
 		{
 			tracker.isEnabled = usePositionTracking;
@@ -447,8 +439,6 @@ public class OVRManager : MonoBehaviour
 	private void LateUpdate()
 #endif
 	{
-		if(Network.isServer)
-			return;
 
 #if (!UNITY_ANDROID || UNITY_EDITOR)
 		display.BeginFrame();

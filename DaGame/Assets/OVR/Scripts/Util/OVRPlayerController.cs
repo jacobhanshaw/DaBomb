@@ -174,8 +174,6 @@ public class OVRPlayerController : MonoBehaviour
 
 	public virtual void UpdateMovement()
 	{
-		if(Network.isServer)
-			return;
 		if (HaltUpdateMovement)
 			return;
 

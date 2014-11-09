@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AddRift.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\CubeWave.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\GrabHand.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\Grabbable.cs" />
@@ -67,25 +68,25 @@
      <Compile Include="Assets\LeapMotion\InteractionUtils (alpha)\Scripts\UnityIntegration\MathWithUnity.cs" />
      <Compile Include="Assets\LeapMotion\InteractionUtils (alpha)\Scripts\UnityIntegration\TransformSyncUtil.cs" />
      <Compile Include="Assets\LeapMotion\InteractionUtils (alpha)\Scripts\UnityIntegration\UnityUtil.cs" />
-     <Compile Include="Assets\Materials\Scripts\HandController.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\DebugFinger.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\DebugHand.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\FingerModel.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\HandModel.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\PolyFinger.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\PolyHand.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\RiggedFinger.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\RiggedHand.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\RigidFinger.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\RigidHand.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\SkeletalFinger.cs" />
-     <Compile Include="Assets\Materials\Scripts\Hands\SkeletalHand.cs" />
-     <Compile Include="Assets\Materials\Scripts\LeapImageRetriever.cs" />
-     <Compile Include="Assets\Materials\Scripts\Tools\ToolModel.cs" />
-     <Compile Include="Assets\Materials\Scripts\Utils\ConfidenceTransparency.cs" />
-     <Compile Include="Assets\Materials\Scripts\Utils\LeapRecorder.cs" />
-     <Compile Include="Assets\Materials\Scripts\Utils\LeapUnityExtensions.cs" />
-     <Compile Include="Assets\Materials\Scripts\Utils\MagneticPinch.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Tools\ToolModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapRecorder.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
