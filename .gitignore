@@ -5,7 +5,7 @@
 $GIT_DIR/DaGame/Leap.dll
 $GIT_DIR/DaGame/LeapCSharp.dll
 $GIT_DIR/DaGame/Assets/LeapCSharp.NET3.5.dll
-$GIT_DIR/DaGame/LeapMotion
+#$GIT_DIR/DaGame/LeapMotion
 
 # =============== #
 # Unity generated #
