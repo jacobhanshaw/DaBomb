@@ -10,6 +10,7 @@ public class NetworkManager : MonoBehaviour
 		private HostData[] hostList;
 
 		public GameObject playerPrefab;
+		public GameObject nonplayerPrefab;
 
 		void OnGUI ()
 		{
@@ -38,7 +39,7 @@ public class NetworkManager : MonoBehaviour
 
 		void OnServerInitialized ()
 		{
-				Debug.Log ("Server init");
+				SpawnNonplayer ();
 		}
 
 		void Update ()
@@ -65,8 +66,12 @@ public class NetworkManager : MonoBehaviour
 
 		void OnConnectedToServer ()
 		{
-				Debug.Log ("Server connect");
 				SpawnPlayer ();
+		}
+
+		private void SpawnNonplayer ()
+		{
+				Network.Instantiate (nonplayerPrefab, Vector3.up * -3, Quaternion.identity, 0);
 		}
 
 		private void SpawnPlayer ()

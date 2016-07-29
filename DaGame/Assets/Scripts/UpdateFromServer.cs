@@ -20,7 +20,6 @@ public class UpdateFromServer : MonoBehaviour
 						syncPosition = gameObject.transform.position;
 						stream.Serialize (ref syncPosition);
 
-
 						if (usesCharacterController)
 								syncVelocity = controller.velocity;
 						else
@@ -41,13 +40,15 @@ public class UpdateFromServer : MonoBehaviour
 
 		void Awake ()
 		{
+				if (usesCharacterController)
+						controller = gameObject.GetComponent<CharacterController> ();
+
 				lastSynchronizationTime = Time.time;
 		}
 
 		void Start ()
 		{
-				if (usesCharacterController)
-						controller = gameObject.GetComponent<CharacterController> ();
+
 		}
 
 		void Update ()
